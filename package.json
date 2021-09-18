@@ -1,17 +1,26 @@
 {
-  "name": "rec-structure-maker",
-  "version": "1.0.1",
+  "name": "@bhawanishankar/rec-structure-maker",
+  "version": "1.0.2",
   "description": "make a folder structure recursively with a json file",
-  "main": "main.js",
-  "scripts": {
-    "rec_structure_maker": "lib/rec_structure_maker"
+  "main": "./src/index.js",
+  "bin": {
+    "rec-structure-maker": "./bin/rec-structure-maker.js"
   },
-  "keywords": [],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "main": "main/rec-structure-maker"
+  },
+  "keywords": [
+    "cli",
+    "rec-structure-maker"
+  ],
   "author": "Bhawani Shankar",
   "license": "ISC",
   "dependencies": {
     "async": "^3.2.1",
-    "path": "^0.12.7"
+    "esm": "^3.2.25"
   },
   "devDependencies": {},
   "repository": {

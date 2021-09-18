@@ -1,4 +1,3 @@
 {
-  "home": { "files": {} },
-  "test": { "tests": { "testing": {} } }
+  "sample": { "home": { "files": {} }, "test": { "tests": { "testing": {} } } }
 }
