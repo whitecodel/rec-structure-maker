@@ -1,6 +1,6 @@
 {
   "name": "@bhawanishankar/rec-structure-maker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "make a folder structure recursively with a json file",
   "main": "./src/index.js",
   "bin": {

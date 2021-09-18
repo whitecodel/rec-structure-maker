@@ -3,7 +3,7 @@ var _fs = require("fs");
 var _async = require("async");
 
 function File() {
-  this._path = __dirname + "/../";
+  this._path = "";
 }
 
 File.prototype.createDirectoriesFromJSON = function (json, cb) {
