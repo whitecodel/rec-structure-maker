@@ -1,15 +1,25 @@
 {
-  "name": "rec",
-  "version": "1.0.0",
-  "description": "",
+  "name": "rec-structure-maker",
+  "version": "1.0.1",
+  "description": "make a folder structure recursively with a json file",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "rec_structure_maker": "lib/rec_structure_maker"
   },
   "keywords": [],
-  "author": "",
+  "author": "Bhawani Shankar",
   "license": "ISC",
   "dependencies": {
-    "async": "^3.2.1"
-  }
+    "async": "^3.2.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whitecodel/rec-structure-maker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/whitecodel/rec-structure-maker/issues"
+  },
+  "homepage": "https://github.com/whitecodel/rec-structure-maker#readme"
 }
