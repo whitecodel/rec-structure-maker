@@ -1,4 +1,4 @@
-# command
+# rec-structure-maker
 
 ## Installation
 
